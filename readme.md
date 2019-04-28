@@ -1,5 +1,6 @@
 # 任意のPixivユーザのイラストや漫画をダウンロードするソフトです。
 1ユーザ毎にログインする仕様になっています。（ダウンロードが中断されないように）
+
 そのため、複数のユーザのイラストや漫画をダウンロードするときは、予めPixivのログイン通知が行くメールアドレスの変更などを行っておくと良いでしょう。
 
 ## 使い方
@@ -18,6 +19,7 @@ $ pip install -r requests.txt
 ### 各種必要なファイルの作成
 ログイン情報を収納するための`client.json`ファイルとダウンロードしたいPixivユーザのIDを格納した`artist.csv`ファイルを作成します。
 
+client.json
 ```client.json
 {
   "pixiv_id":"hogehoge",
@@ -26,6 +28,7 @@ $ pip install -r requests.txt
 }
 ```
 
+artist.csv
 ```artist.csv
 user_id, name
 <ダウンロードしたいユーザーのid>, ペンネーム
