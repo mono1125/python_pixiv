@@ -7,7 +7,7 @@
 Anaconda3で環境構築を行います。
 ### 環境など
 ```
-$ git clone https://...
+$ git clone https://github.com/mono1125/python_pixiv.git
 
 # anaconda環境
 $ conda create -n mypixiv
